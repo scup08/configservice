@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lzh</groupId>
-  <artifactId>configserver</artifactId>
+  <artifactId>configservice</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>configserver Maven Webapp</name>
+  <name>configservice Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <parent>
 		<groupId>org.springframework.boot</groupId>
@@ -57,7 +57,7 @@
 
 
 	<build>
-		<finalName>configserver</finalName>
+		<finalName>configservice</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
