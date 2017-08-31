@@ -4,4 +4,4 @@ spring:
     url: jdbc:mysql://192.168.26.128:3306/testdb?characterEncoding=UTF-8
     username: root
     password: root1234
-    driver-class-name: com.mysql.jdbc.Driver
+    drivername: com.mysql.jdbc.Driver
