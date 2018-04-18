@@ -2,10 +2,12 @@ package com.lzh.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+//@SpringCloudApplication
 @EnableConfigServer
 @EnableEurekaClient
 public class ConfigserviceApplication {
