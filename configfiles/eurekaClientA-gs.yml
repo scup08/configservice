@@ -14,7 +14,7 @@ spring:
       password: root  
 test:
   str:
-    name: avvd
+    name: asdf
     
 management:
   security:
