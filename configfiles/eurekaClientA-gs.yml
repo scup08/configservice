@@ -15,3 +15,7 @@ spring:
 test:
   str:
     name: asddsa
+    
+management:
+  security:
+    enabled: false
