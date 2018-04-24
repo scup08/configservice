@@ -14,4 +14,4 @@ spring:
       password: root  
 test:
   str:
-    name: asd
+    name: asddsa
