@@ -10,4 +10,4 @@ spring:
     
 test:
   str:
-    name: abc
+    name: vbc
