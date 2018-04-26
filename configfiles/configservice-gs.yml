@@ -1,7 +1,18 @@
 server:
   port: 9001
-  
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.26.128:3306/account_db?useSSL=false
+    #url: jdbc:mysql://192.168.121.5:3306/account_db?useSSL=false
+    username: root
+    password: root
+  rabbitmq:
+      host: 47.93.193.177
+      port: 5672
+      username: admin
+      password: root  
+    
+management:
+  security:
+    enabled: false
