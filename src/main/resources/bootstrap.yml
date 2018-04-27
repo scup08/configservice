@@ -10,12 +10,6 @@ spring:
           uri: https://github.com/scup08/configservice.git 
           searchPaths: configfiles
       #label: master
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.26.128:3306/account_db?useSSL=false
-    #url: jdbc:mysql://192.168.121.5:3306/account_db?useSSL=false
-    username: root
-    password: root
   rabbitmq:
       host: 47.93.193.177
       port: 5672
