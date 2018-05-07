@@ -1,5 +1,3 @@
-server:
-  port: 9011
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -9,3 +7,5 @@ spring:
 mybatis:
   typeAliasesPackage: com.lzh.account.model.entity,com.lzh.common.model.entity.account
   mapperLocations: classpath:mapper/*Mapper.xml
+server:
+  port: 9011
