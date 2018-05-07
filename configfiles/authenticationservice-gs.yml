@@ -1,6 +1,8 @@
+server:
+  port: 9002
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.26.128:3306/testdb?characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.26.128:3306/zuul_db?useSSL=false
     username: root
-    password: root1234
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
