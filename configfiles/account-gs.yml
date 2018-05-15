@@ -9,3 +9,6 @@ mybatis:
   mapperLocations: classpath:mapper/*Mapper.xml
 server:
   port: 9011
+management:
+  security:
+    enabled: false
