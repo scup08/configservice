@@ -1,14 +1,14 @@
+server:
+  port: 9011
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.26.128:3306/account_db?useSSL=false
+    url: jdbc:mysql://192.168.26.128:3306/zuul_db?useSSL=false
     username: root
     password: root
+    driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   typeAliasesPackage: com.lzh.account.model.entity,com.lzh.common.model.entity.account
   mapperLocations: classpath:mapper/*Mapper.xml
-server:
-  port: 9011
 management:
   security:
     enabled: false
