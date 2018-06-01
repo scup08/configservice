@@ -12,3 +12,4 @@ mybatis:
 management:
   security:
     enabled: false
+    
