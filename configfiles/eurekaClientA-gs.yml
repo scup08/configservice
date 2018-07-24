@@ -8,7 +8,7 @@ spring:
     username: root
     password: root
 mybatis:
-  typeAliasesPackage: com.lzh.eurekaClientA.model.entity,com.lzh.common.model.entity.eurekaClientA
+  typeAliasesPackage: com.lzh.eurekaClientA.model,com.lzh.common.model.entity.eurekaClientA
   mapperLocations: classpath:mapper/*Mapper.xml
 management:
   security:
