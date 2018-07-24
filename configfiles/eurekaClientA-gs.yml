@@ -10,6 +10,7 @@ spring:
 mybatis:
   typeAliasesPackage: com.lzh.eurekaClientA.model,com.lzh.common.model.entity.eurekaClientA
   mapperLocations: classpath:mapper/*Mapper.xml
+  mapUnderscoreToCamelCase: true
 management:
   security:
     enabled: false
