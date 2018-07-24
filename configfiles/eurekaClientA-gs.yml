@@ -8,9 +8,10 @@ spring:
     username: root
     password: root
 mybatis:
-  typeAliasesPackage: com.lzh.eurekaClientA.model,com.lzh.common.model.entity.eurekaClientA
+  typeAliasesPackage: com.lzh.eurekaClientA.model
   mapperLocations: classpath:mapper/*Mapper.xml
-  mapUnderscoreToCamelCase: true
+  configuration:
+    mapUnderscoreToCamelCase: true
 management:
   security:
     enabled: false
