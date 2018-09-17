@@ -10,24 +10,24 @@ management:
   security:
     enabled: false
 zuul:
-  ignored-services: '*'
+  #ignored-services: '*'
   routes:
     #zuulservice: 
       #path: /zuulservice/watchRoute
       #strPrefix: true
       #url: forward:/watchRoute
-    userservice:
-      path: /user/**
-      strPrefix: true    # true 取消/user/ 
-      url: http://localhost:9001/user
+    #account:
+      #path: /user/**
+      #strPrefix: true    # true 取消/user/ 
+      #url: http://localhost:9001/user
       
       #strPrefix: false    # false /user/ 
       #url: http://localhost:9001
-    #feignservice:
-      #path: /org/**
+    account:
+      path: /user/**
       #strPrefix: true
       #url: http://localhost:9002/org
-      #serviceId: feignservice
+      serviceId: feignservice
       #url: forward:/wap
     debug:
       request: true
