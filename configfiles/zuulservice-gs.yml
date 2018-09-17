@@ -16,10 +16,10 @@ zuul:
       #path: /zuulservice/watchRoute
       #strPrefix: true
       #url: forward:/watchRoute
-    #userservice:
-      #path: /user/**
-      #strPrefix: true    # true 取消/user/ 
-      #url: http://localhost:9001/user
+    userservice:
+      path: /user/**
+      strPrefix: true    # true 取消/user/ 
+      url: http://localhost:9001/user
       
       #strPrefix: false    # false /user/ 
       #url: http://localhost:9001
