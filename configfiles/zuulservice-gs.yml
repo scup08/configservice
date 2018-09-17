@@ -27,7 +27,7 @@ zuul:
       path: /user/**
       #strPrefix: true
       #url: http://localhost:9002/org
-      serviceId: feignservice
+      serviceId: account
       #url: forward:/wap
     debug:
       request: true
