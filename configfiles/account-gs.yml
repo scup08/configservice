@@ -17,7 +17,7 @@ spring:
       maxWaitMillis: 1000 # 连接池最大阻塞等待时间（使用负值表示没有限制）
       minIdle: 5 # 连接池中的最小空闲连接
 mybatis:
-  typeAliasesPackage: com.lzh.account.model,com.lzh.common.model.entity.account
+  typeAliasesPackage: com.lzh.account.model,com.lzh.common.model.entity.account,com.lzh.common.model.entity.auth
   mapperLocations: classpath:mapper/*Mapper.xml
 management:
   security:
