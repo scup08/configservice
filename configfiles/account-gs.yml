@@ -19,6 +19,8 @@ spring:
 mybatis:
   typeAliasesPackage: com.lzh.account.model,com.lzh.common.model.entity.account,com.lzh.common.model.entity.auth
   mapperLocations: classpath:mapper/*Mapper.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
 management:
   security:
     enabled: false
