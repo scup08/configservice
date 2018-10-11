@@ -7,8 +7,8 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
     druid:
-      initial-size: 0
-      max-active: 5
+      initial-size: 2
+      max-active: 8
       min-idle: 2
       max-wait: 5000 #最大等待时间，默认启用公平锁    如要启用非公平锁设置 useUnfairLock=true
       pool-prepared-statements: false #PScache   对于有游标的数据库性能提升巨大，对于mysql 建议关闭
@@ -22,7 +22,7 @@ spring:
       #time-between-eviction-runs-millis: 
       #min-evictable-idle-time-millis: 
       #max-evictable-idle-time-millis: 
-      filters: stat #配置多个英文逗号分隔
+      filters: stat,wall #配置多个英文逗号分隔
   redis:
     database: 0 # Redis数据库索引（默认为0）
     host: 47.93.193.177  #Redis服务器地址
